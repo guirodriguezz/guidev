@@ -1,7 +1,5 @@
 <h1 align="center"> 💻Meu Portfolio - GuiDeveloper</h1>
 
----
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7808df78-4ac5-4317-9e54-a7e22fae480e/deploy-status)](https://app.netlify.com/sites/guideveloper/deploys)
 
 ![GitHub release](https://img.shields.io/github/v/release/guirodriguezz/guideveloper?include_prereleases&style=for-the-badge)
