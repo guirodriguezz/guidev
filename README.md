@@ -1,4 +1,4 @@
-# <h1 align="center"><strong>💻Meu Portfolio - GuiDeveloper</strong></h1>
+<h1 align="center"><strong>💻Meu Portfolio - GuiDeveloper</strong></h1>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7808df78-4ac5-4317-9e54-a7e22fae480e/deploy-status)](https://app.netlify.com/sites/guideveloper/deploys)
 
@@ -50,7 +50,4 @@ O site ainda está em desenvolvimento e as próximas atualizações serão volta
 
 <h1 align="left"><strong>📝 Licença</strong></h1>
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
-
-[⬆ Voltar ao topo](#Meu Portfolio - GuiDeveloper)<br>
-
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
