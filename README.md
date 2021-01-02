@@ -38,7 +38,7 @@ O site ainda está em desenvolvimento e as próximas atualizações serão volta
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/guirodriguezz">
         <img src="https://avatars2.githubusercontent.com/u/32783994?s=460&u=2addef7630c3998e12be9a29432a2328d33e0ef0&v=4" width="100px;" alt="Foto de Guilherme Marques no GitHub"/><br>
         <sub>
           <b>Guilherme Marques</b>
