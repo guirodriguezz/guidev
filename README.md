@@ -3,6 +3,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7808df78-4ac5-4317-9e54-a7e22fae480e/deploy-status)](https://app.netlify.com/sites/guideveloper/deploys)
 [![built with gulp](https://img.shields.io/badge/gulp-builds_this_project-eb4a4b.svg?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAAYAAAAOCAMAAAA7QZ0XAAAABlBMVEUAAAD%2F%2F%2F%2Bl2Z%2FdAAAAAXRSTlMAQObYZgAAABdJREFUeAFjAAFGRjSSEQzwUgwQkjAFAAtaAD0Ls2nMAAAAAElFTkSuQmCC)](http://gulpjs.com/)
 
+----
+
 ![GitHub release](https://img.shields.io/github/v/release/guirodriguezz/guideveloper?include_prereleases&style=for-the-badge)
 ![GitHub license](https://img.shields.io/github/license/guirodriguezz/guideveloper?style=for-the-badge)
 ![GitHub size repo](https://img.shields.io/github/repo-size/guirodriguezz/guideveloper?style=for-the-badge)
