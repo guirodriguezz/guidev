@@ -5,10 +5,10 @@
 
 ---
 
-![GitHub release](https://img.shields.io/github/v/release/guirodriguezz/guideveloper?include_prereleases&style=for-the-badge)
-![GitHub license](https://img.shields.io/github/license/guirodriguezz/guideveloper?style=for-the-badge)
-![GitHub size repo](https://img.shields.io/github/repo-size/guirodriguezz/guideveloper?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/guirodriguezz/guideveloper?style=for-the-badge)
+[![GitHub release](https://img.shields.io/github/v/release/guirodriguezz/guideveloper?include_prereleases&style=for-the-badge)](https://github.com/guirodriguezz/guideveloper/releases)
+[![GitHub license](https://img.shields.io/github/license/guirodriguezz/guideveloper?style=for-the-badge)](https://github.com/guirodriguezz/guideveloper/blob/main/LICENSE)
+[![GitHub size repo](https://img.shields.io/github/repo-size/guirodriguezz/guideveloper?style=for-the-badge)](http://gulpjs.com/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/guirodriguezz/guideveloper?style=for-the-badge)](https://github.com/guirodriguezz/guideveloper/commit/main)
 
 Projeto relacionado ao meu portfólio. Local onde armazenarei projetos e minha história como dev.
 
