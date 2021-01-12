@@ -12,7 +12,7 @@
 
 Projeto relacionado ao meu portfólio. Local onde armazenarei projetos e minha história como dev.
 
-<img src="https://raw.githubusercontent.com/iuricode/README-template/main/README-repository/exemplo-image.png" alt="exemplo imagem">
+<img src="https://ibb.co/yshvRxb" alt="Prototipo do Meu Site Pessoal">
 
 <h1 align="left"><strong>🛠 Tecnologias utilizadas</strong></h1>
 
