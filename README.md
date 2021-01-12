@@ -12,7 +12,7 @@
 
 Projeto relacionado ao meu portfólio. Local onde armazenarei projetos e minha história como dev.
 
-<img src="https://ibb.co/yshvRxb" alt="Prototipo do Meu Site Pessoal">
+<img src="https://i.ibb.co/0JB4Xzd/imagem-2021-01-12-090621.png" alt="Prototipo do Meu Site Pessoal">
 
 <h1 align="left"><strong>🛠 Tecnologias utilizadas</strong></h1>
 
@@ -31,10 +31,10 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 O site ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [ ] Tarefa 1
-- [ ] Tarefa 2
-- [ ] Tarefa 3
-- [ ] Tarefa 4
+- [x] Criação de HTML Semântico, acessibidade e SEO.
+- [ ] Criação de tipografia e cores.
+- [ ] Criação de css estrutural para o layout.
+- [ ] Css das seções.
 
 <h1 align="left"><strong>🤝 Colaboradores</strong></h1>
 
