@@ -1,0 +1,167 @@
+@import "reset";
+
+/* #region Cores */
+$texto-descritivo: #161613;
+$texto-menu: #ffffff;
+$cor-secundaria: #4c6085;
+$cor-cabecalho: #f9f7f7;
+$separador: #f9f7f7;
+$titulo-secao: #e4572e;
+$icone-cabecalho: #000000;
+/* #endregion */
+
+/* #region Conversor de pixels para em */
+@function converter-px($pixel, $contexto: 16) {
+    @return $pixel / $contexto + em;
+}
+/* #endregion */
+
+/* #region Fontes */
+$font-principal: "Roboto", sans-serif;
+/* #endregion */
+
+/* #region Tipografias do site */
+@mixin tipografia($size, $weight, $color) {
+    font-weight: $weight;
+    color: $color;
+    @if $size == 25 {
+        font-size: converter-px($size);
+        line-height: converter-px(40, $size);
+    } @else {
+        font-size: converter-px($size);
+        line-height: converter-px(12, $size);
+    }
+}
+/* #endregion */
+
+/* #region Estilos Gerais */
+body {
+    background-color: $texto-menu;
+    font-family: $font-principal;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+/* #endregion */
+
+/* #region Layout */
+.estrutura {
+    display: grid;
+    grid-template-columns: 351px 1fr;
+    grid-template-rows: 7vh minmax(96vh, auto) 5vh;
+    grid-template-areas:
+        "sidenav  header"
+        "sidenav  main"
+        "sidenav  footer";
+}
+/* #endregion */
+
+/* #region Header */
+.header {
+    grid-area: header;
+    background-color: $cor-cabecalho;
+    border-bottom: 2px solid #c3c3c3;
+    display: flex;
+    align-items: center;
+    &__list {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        li {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+        }
+        span {
+            margin-right: 1vh;
+            @include tipografia(25, lighter, $texto-descritivo);
+        }
+    }
+}
+
+.translate {
+    margin-right: 2vh;
+    cursor: pointer;
+}
+
+.layoutmode {
+    margin-left: 2vh;
+    cursor: pointer;
+    &__lua {
+        margin-bottom: 5px;
+    }
+}
+/* #endregion */
+
+/* #region Sidenav */
+.sidenav {
+    grid-area: sidenav;
+    background-color: $cor-secundaria;
+    position: fixed;
+    height: 100vh;
+    width: 351px;
+    display: flex;
+    align-items: center;
+    padding-top: 7vh;
+    flex-direction: column;
+    &__nomecargo {
+        text-align: center;
+        margin-top: 3vh;
+    }
+    &__nome {
+        @include tipografia(22, bold, $texto-menu);
+    }
+    &__cargo {
+        margin-top: 3vh;
+        @include tipografia(22, normal, $texto-menu);
+        opacity: 0.8;
+    }
+    &__list {
+        display: flex;
+        align-content: space-between;
+        margin-top: 3vh;
+        li:not(:last-child) {
+            margin-right: 1vw;
+        }
+    }
+    &__separador {
+        background-color: $separador;
+        border: 1px solid $separador;
+        border-radius: 50px;
+        opacity: 0.2;
+        width: 306px;
+        margin-top: 4vh;
+        margin-bottom: 6vh;
+    }
+}
+
+.navegacao {
+    &__list li {
+        display: flex;
+        align-items: center;
+        &:not(:first-child) {
+            margin-top: 2vh;
+        }
+        img {
+            margin-right: 2vw;
+        }
+        span {
+            @include tipografia(25, bold, $texto-menu);
+        }
+    }
+}
+/* #endregion */
+
+.main {
+    grid-area: main;
+    &__introducao {
+        background-color: $cor-cabecalho;
+    }
+}
+
+.footer {
+    grid-area: footer;
+    background-color: chocolate;
+}
