@@ -1,7 +1,6 @@
 <h1 align="center"><strong>💻Meu Portfolio</strong></h1>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7808df78-4ac5-4317-9e54-a7e22fae480e/deploy-status)](https://app.netlify.com/sites/guideveloper/deploys)
-[![built with gulp](https://img.shields.io/badge/gulp-builds_this_project-eb4a4b.svg?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAAYAAAAOCAMAAAA7QZ0XAAAABlBMVEUAAAD%2F%2F%2F%2Bl2Z%2FdAAAAAXRSTlMAQObYZgAAABdJREFUeAFjAAFGRjSSEQzwUgwQkjAFAAtaAD0Ls2nMAAAAAElFTkSuQmCC)](http://gulpjs.com/)
 
 ---
 
@@ -12,7 +11,7 @@
 
 Projeto relacionado ao meu portfólio. Local onde armazenarei projetos e minha história como dev.
 
-<img src="https://i.ibb.co/0JB4Xzd/imagem-2021-01-12-090621.png" alt="Prototipo do Meu Site Pessoal">
+<img src="https://i.ibb.co/sg2Y5wr/portfolio.png" alt="Prototipo do Meu Site Pessoal">
 
 <h1 align="left"><strong>🛠 Tecnologias utilizadas</strong></h1>
 
@@ -34,7 +33,8 @@ O site ainda está em desenvolvimento e as próximas atualizações serão volta
 - [x] Criação de HTML Semântico, acessibidade e SEO.
 - [x] Criação de tipografia e cores.
 - [x] Criação de css estrutural para o layout.
-- [ ] Css das seções.
+- [x] CSS das seções.
+- [ ] Adicionar media queries para responsividade.
 
 <h1 align="left"><strong>🤝 Colaboradores</strong></h1>
 
