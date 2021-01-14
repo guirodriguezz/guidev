@@ -8,6 +8,7 @@ $cor-cabecalho: #f9f7f7;
 $separador: #f9f7f7;
 $titulo-secao: #e4572e;
 $icone-cabecalho: #000000;
+$cor-borda: #c3c3c3;
 /* #endregion */
 
 /* #region Conversor de pixels para em */
@@ -62,7 +63,7 @@ img {
 .header {
     grid-area: header;
     background-color: $cor-cabecalho;
-    border-bottom: 2px solid #c3c3c3;
+    border-bottom: 2px solid $cor-borda;
     display: flex;
     align-items: center;
     &__list {
@@ -154,14 +155,64 @@ img {
 }
 /* #endregion */
 
+/* #region Main */
 .main {
     grid-area: main;
-    &__introducao {
-        background-color: $cor-cabecalho;
+    margin-top: 1vh;
+    .introducao {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        &__texto {
+            margin-top: 8vh;
+            margin-left: 3vw;
+        }
+        &__titulo {
+            @include tipografia(35, bold, $texto-descritivo);
+            margin-bottom: 3vh;
+        }
+        &__subtitulo {
+            @include tipografia(25, lighter, $texto-descritivo);
+            max-width: 33vw;
+        }
+        &__avatar {
+            margin-top: 1vh;
+            margin-right: 3vw;
+        }
+        &__sampa {
+            margin-top: 5vh;
+        }
+    }
+
+    .secao {
+        display: flex;
+        justify-content: space-around;
+        &__texto {
+            margin-left: 2vw;
+        }
+        &__titulo {
+            @include tipografia(35, normal, $titulo-secao);
+            margin-top: 6vh;
+        }
+        &__paragrafo {
+            @include tipografia(25, lighter, $texto-descritivo);
+            max-width: 61vw;
+            margin-top: 3vh;
+        }
     }
 }
+/* #endregion */
 
+/* #region Footer*/
 .footer {
     grid-area: footer;
-    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    background-color: $cor-cabecalho;
+    border-top: 1px solid $cor-borda;
+    &__paragrafo {
+        margin: 0 auto;
+        @include tipografia(15, lighter, $icone-cabecalho);
+    }
 }
+/* #endregion */
