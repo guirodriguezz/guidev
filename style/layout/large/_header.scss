@@ -1,0 +1,34 @@
+.header {
+    grid-area: header;
+    background-color: $cor-cabecalho;
+    border-bottom: 2px solid $cor-borda;
+    display: flex;
+    align-items: center;
+    &__list {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        li {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+        }
+        span {
+            margin-right: 1vh;
+            @include tipografia(25, lighter, $texto-descritivo);
+        }
+    }
+}
+
+.translate {
+    margin-right: 2vh;
+    cursor: pointer;
+}
+
+.layoutmode {
+    margin-left: 2vh;
+    cursor: pointer;
+    &__lua {
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,56 @@
+.sidenav {
+    grid-area: sidenav;
+    background-color: $cor-secundaria;
+    position: fixed;
+    height: 100vh;
+    width: 351px;
+    display: flex;
+    align-items: center;
+    padding-top: 7vh;
+    flex-direction: column;
+    &__nomecargo {
+        text-align: center;
+        margin-top: 3vh;
+    }
+    &__nome {
+        @include tipografia(22, bold, $texto-menu);
+    }
+    &__cargo {
+        margin-top: 3vh;
+        @include tipografia(22, normal, $texto-menu);
+        opacity: 0.8;
+    }
+    &__list {
+        display: flex;
+        align-content: space-between;
+        margin-top: 3vh;
+        li:not(:last-child) {
+            margin-right: 1vw;
+        }
+    }
+    &__separador {
+        background-color: $separador;
+        border: 1px solid $separador;
+        border-radius: 50px;
+        opacity: 0.2;
+        width: 306px;
+        margin-top: 4vh;
+        margin-bottom: 6vh;
+    }
+}
+
+.navegacao {
+    &__list li {
+        display: flex;
+        align-items: center;
+        &:not(:first-child) {
+            margin-top: 2vh;
+        }
+        img {
+            margin-right: 2vw;
+        }
+        span {
+            @include tipografia(25, bold, $texto-menu);
+        }
+    }
+}

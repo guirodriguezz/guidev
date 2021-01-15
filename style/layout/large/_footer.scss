@@ -1,0 +1,11 @@
+.footer {
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    background-color: $cor-cabecalho;
+    border-top: 1px solid $cor-borda;
+    &__paragrafo {
+        margin: 0 auto;
+        @include tipografia(15, lighter, $icone-cabecalho);
+    }
+}
