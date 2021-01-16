@@ -79,50 +79,8 @@ img {
 .estrutura {
   display: grid;
   grid-template-columns: 351px 1fr;
-  grid-template-rows: 7vh minmax(96vh, auto) 5vh;
-  grid-template-areas: "sidenav  header" "sidenav  main" "sidenav  footer";
-}
-
-.header {
-  grid-area: header;
-  background-color: #f9f7f7;
-  border-bottom: 2px solid #c3c3c3;
-  display: flex;
-  align-items: center;
-}
-
-.header__list {
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.header__list li {
-  display: flex;
-  align-items: center;
-  padding: 5px;
-}
-
-.header__list span {
-  margin-right: 1vh;
-  font-weight: lighter;
-  color: #161613;
-  font-size: 1.5625em;
-  line-height: 1.6em;
-}
-
-.translate {
-  margin-right: 2vh;
-  cursor: pointer;
-}
-
-.layoutmode {
-  margin-left: 2vh;
-  cursor: pointer;
-}
-
-.layoutmode__lua {
-  margin-bottom: 5px;
+  grid-template-rows: minmax(96vh, auto) 5vh;
+  grid-template-areas: "sidenav  main" "sidenav  main" "sidenav  footer";
 }
 
 .sidenav {
@@ -133,8 +91,12 @@ img {
   width: 351px;
   display: flex;
   align-items: center;
-  padding-top: 7vh;
   flex-direction: column;
+}
+
+.sidenav__noturno {
+  align-self: flex-end;
+  margin: 2vh 1.5vw 0 0;
 }
 
 .sidenav__nomecargo {
@@ -200,7 +162,7 @@ img {
 
 .main {
   grid-area: main;
-  margin-top: 1vh;
+  margin-top: 3vh;
 }
 
 .main .introducao {
@@ -236,7 +198,7 @@ img {
 }
 
 .main .introducao__sampa {
-  margin-top: 5vh;
+  margin-top: 10vh;
 }
 
 .main .secao {

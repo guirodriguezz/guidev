@@ -6,8 +6,11 @@
     width: 351px;
     display: flex;
     align-items: center;
-    padding-top: 7vh;
     flex-direction: column;
+    &__noturno {
+        align-self: flex-end;
+        margin: 2vh 1.5vw 0 0;
+    }
     &__nomecargo {
         text-align: center;
         margin-top: 3vh;

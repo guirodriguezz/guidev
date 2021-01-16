@@ -1,6 +1,6 @@
 .main {
     grid-area: main;
-    margin-top: 1vh;
+    margin-top: 3vh;
     .introducao {
         display: flex;
         justify-content: space-around;
@@ -22,7 +22,7 @@
             margin-right: 3vw;
         }
         &__sampa {
-            margin-top: 5vh;
+            margin-top: 10vh;
         }
     }
 

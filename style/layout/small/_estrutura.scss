@@ -1,0 +1,9 @@
+.estrutura {
+    display: grid;
+    grid-template-columns: 789px;
+    grid-template-rows: 7vh minmax(96vh, auto) 5vh;
+    grid-template-areas:
+        "sidenav  header"
+        "sidenav  main"
+        "sidenav  footer";
+}
