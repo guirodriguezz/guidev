@@ -1,0 +1,40 @@
+.sidenav {
+    grid-area: sidenav;
+    background-color: $cor-secundaria;
+    display: grid;
+    grid-template-columns: 20vw auto 20vw;
+    grid-template-rows: 200px 66px;
+    justify-content: space-around;
+    &__list {
+        grid-column: 1;
+        grid-row: 1;
+        display: flex;
+        padding-top: 2vh;
+        gap: 10px;
+    }
+    &__img {
+        grid-column: 2;
+        grid-row: 1;
+        margin: 0 auto;
+        padding-top: 2vh;
+    }
+    &__noturno {
+        grid-column: 3;
+        grid-row: 1;
+        justify-self: flex-end;
+        padding-top: 2vh;
+    }
+    &__nomecargo {
+        grid-column: 2;
+        grid-row: 2;
+        text-align: center;
+    }
+    &__nome {
+        @include tipografia(22, bold, $texto-menu);
+    }
+    &__cargo {
+        margin-top: 3vh;
+        @include tipografia(22, normal, $texto-menu);
+        opacity: 0.8;
+    }
+}

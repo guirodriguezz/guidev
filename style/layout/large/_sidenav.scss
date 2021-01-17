@@ -41,19 +41,3 @@
         margin-bottom: 6vh;
     }
 }
-
-.navegacao {
-    &__list li {
-        display: flex;
-        align-items: center;
-        &:not(:first-child) {
-            margin-top: 2vh;
-        }
-        img {
-            margin-right: 2vw;
-        }
-        span {
-            @include tipografia(25, bold, $texto-menu);
-        }
-    }
-}

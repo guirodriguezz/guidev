@@ -26,7 +26,7 @@
     <!-- <link rel="stylesheet" href="/style/index.css" /> -->
 
     <link rel="stylesheet" media="screen and (min-width: 778px) and (max-width: 9999px)" href="/style/index.css" />
-    <link rel="stylesheet" media="screen and (max-width: 777px)" href="/style/indexSmall.css" />
+    <link rel="stylesheet" media="screen and (max-width: 778px)" href="/style/indexSmall.css" />
     <!-- #endregion -->
   </head>
 
@@ -35,7 +35,7 @@
       <aside class="sidenav">
         <img class="sidenav__noturno" src="/img/icons/lua.svg" alt="Icone para ativara e desativar modo noturno" />
 
-        <img src="/img/gui.svg" alt="Foto de Guilherme Marques" title="Guilherme Alexandre Marques" />
+        <img class="sidenav__img" src="/img/gui.svg" alt="Foto de Guilherme Marques" title="Guilherme Alexandre Marques" />
 
         <div class="sidenav__nomecargo">
           <p class="sidenav__nome">Guilherme Alexandre</p>
@@ -61,28 +61,30 @@
         </ul>
 
         <span class="sidenav__separador"></span>
+      </aside>
 
-        <nav class="navegacao">
-          <ul class="navegacao__list">
+      <nav class="navegacao">
+        <ul class="navegacao__list">
+          <a href="#sobre">
             <li>
               <img src="/img/icons/iconmonstr-user-14.svg" alt="Icone de usuário da sessão Sobre" />
               <span>Sobre</span>
             </li>
-            <li>
-              <img src="/img/icons/iconmonstr-code-2.svg" alt="Icone de código da sessão Skills" height="25" width="25" />
-              <span>Skills</span>
-            </li>
-            <li>
-              <img src="/img/icons/iconmonstr-smartphone-16.svg" alt="Icone de dispositivos da sessão Projetos" />
-              <span>Projetos</span>
-            </li>
-            <li>
-              <img src="/img/icons/iconmonstr-note-33.svg" alt="Icone de bloco de notas da sessão Currículo" />
-              <span>Currículo</span>
-            </li>
-          </ul>
-        </nav>
-      </aside>
+          </a>
+          <li>
+            <img src="/img/icons/iconmonstr-code-2.svg" alt="Icone de código da sessão Skills" height="25" width="25" />
+            <span>Skills</span>
+          </li>
+          <li>
+            <img src="/img/icons/iconmonstr-smartphone-16.svg" alt="Icone de dispositivos da sessão Projetos" />
+            <span>Projetos</span>
+          </li>
+          <li>
+            <img src="/img/icons/iconmonstr-note-33.svg" alt="Icone de bloco de notas da sessão Currículo" />
+            <span>Currículo</span>
+          </li>
+        </ul>
+      </nav>
 
       <main class="main">
         <section class="introducao">
@@ -98,7 +100,7 @@
 
         <section class="secao">
           <div class="secao__texto">
-            <h1 class="secao__titulo">Sobre</h1>
+            <h1 id="sobre" class="secao__titulo">Sobre</h1>
             <p class="secao__paragrafo">
               Sou natural de São Paulo, Brasil. Me formei em Análise e Desenvolvimento de Sistemas pela faculdade Bandtec no ano de 2019 e de lá pra
               cá eu participei de diversos cursos nas tecnologias front-end, back-end, mobile e UI. Com experiência de 4 anos na área de tecnologia,

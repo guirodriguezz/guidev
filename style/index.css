@@ -79,7 +79,7 @@ img {
 .estrutura {
   display: grid;
   grid-template-columns: 351px 1fr;
-  grid-template-rows: minmax(96vh, auto) 5vh;
+  grid-template-rows: minmax(96vh, auto) 7vh;
   grid-template-areas: "sidenav  main" "sidenav  main" "sidenav  footer";
 }
 
@@ -140,6 +140,12 @@ img {
   margin-bottom: 6vh;
 }
 
+.navegacao {
+  position: fixed;
+  top: 400px;
+  left: 100px;
+}
+
 .navegacao__list li {
   display: flex;
   align-items: center;
@@ -158,6 +164,10 @@ img {
   color: #ffffff;
   font-size: 1.5625em;
   line-height: 1.6em;
+}
+
+.navegacao a {
+  text-decoration: none;
 }
 
 .main {
@@ -233,6 +243,8 @@ img {
   align-items: center;
   background-color: #f9f7f7;
   border-top: 1px solid #c3c3c3;
+  padding: 2vh 0 2vh 0;
+  margin-top: 2vh;
 }
 
 .footer__paragrafo {

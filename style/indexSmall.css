@@ -78,8 +78,80 @@ img {
 /* #endregion */
 .estrutura {
   display: grid;
-  grid-template-columns: 789px;
-  grid-template-rows: 7vh minmax(96vh, auto) 5vh;
-  grid-template-areas: "sidenav  header" "sidenav  main" "sidenav  footer";
+  grid-template-columns: 778px;
+  grid-template-rows: 265px minmax(36vw, auto) 7vw 12vw;
+  grid-template-areas: "sidenav" "main" "footer" "navegacao";
+}
+
+.main {
+  grid-area: main;
+  background-color: brown;
+}
+
+.main .introducao {
+  display: none;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: burlywood;
+}
+
+.navegacao {
+  grid-area: navegacao;
+  background-color: chartreuse;
+}
+
+.sidenav {
+  grid-area: sidenav;
+  background-color: #4c6085;
+  display: grid;
+  grid-template-columns: 20vw auto 20vw;
+  grid-template-rows: 200px 66px;
+  justify-content: space-around;
+}
+
+.sidenav__list {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  padding-top: 2vh;
+  gap: 10px;
+}
+
+.sidenav__img {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 0 auto;
+  padding-top: 2vh;
+}
+
+.sidenav__noturno {
+  grid-column: 3;
+  grid-row: 1;
+  justify-self: flex-end;
+  padding-top: 2vh;
+}
+
+.sidenav__nomecargo {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+}
+
+.sidenav__nome {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.375em;
+  line-height: 0.54545em;
+}
+
+.sidenav__cargo {
+  margin-top: 3vh;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 1.375em;
+  line-height: 0.54545em;
+  opacity: 0.8;
 }
 /*# sourceMappingURL=indexSmall.css.map */
