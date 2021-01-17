@@ -1,0 +1,45 @@
+.main {
+    grid-area: main;
+    margin-top: 3vh;
+    .introducao {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        &__texto {
+            margin-top: 8vh;
+            margin-left: 3vw;
+        }
+        &__titulo {
+            @include tipografia(35, bold, $texto-descritivo);
+            margin-bottom: 3vh;
+        }
+        &__subtitulo {
+            @include tipografia(25, lighter, $texto-descritivo);
+            max-width: 33vw;
+        }
+        &__avatar {
+            margin-top: 1vh;
+            margin-right: 3vw;
+        }
+        &__sampa {
+            margin-top: 10vh;
+        }
+    }
+
+    .secao {
+        display: flex;
+        justify-content: space-around;
+        &__texto {
+            margin-left: 2vw;
+        }
+        &__titulo {
+            @include tipografia(35, normal, $titulo-secao);
+            margin-top: 6vh;
+        }
+        &__paragrafo {
+            @include tipografia(25, lighter, $texto-descritivo);
+            max-width: 61vw;
+            margin-top: 3vh;
+        }
+    }
+}

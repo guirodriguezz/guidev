@@ -1,0 +1,19 @@
+/* #region Conversor de pixels para em */
+@function converter-px($pixel, $contexto: 16) {
+    @return $pixel / $contexto + em;
+}
+/* #endregion */
+
+/* #region Tipografias do site */
+@mixin tipografia($size, $weight, $color) {
+    font-weight: $weight;
+    color: $color;
+    @if $size == 25 {
+        font-size: converter-px($size);
+        line-height: converter-px(40, $size);
+    } @else {
+        font-size: converter-px($size);
+        line-height: converter-px(12, $size);
+    }
+}
+/* #endregion */

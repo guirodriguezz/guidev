@@ -1,0 +1,28 @@
+.estrutura {
+    display: grid;
+    grid-template-columns: minmax(375px, auto);
+    grid-template-rows: minmax(340px, auto) minmax(36vw, auto) 7vw 12vw;
+    grid-template-areas:
+        "sidenav"
+        "main"
+        "footer"
+        "navegacao";
+}
+
+.main {
+    grid-area: main;
+    background-color: brown;
+    .introducao {
+        display: none;
+    }
+}
+
+.footer {
+    grid-area: footer;
+    background-color: burlywood;
+}
+
+.navegacao {
+    grid-area: navegacao;
+    background-color: chartreuse;
+}

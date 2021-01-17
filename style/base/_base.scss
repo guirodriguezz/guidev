@@ -1,0 +1,13 @@
+@import "variaveis";
+
+/* #region Estilos Gerais */
+body {
+    background-color: $texto-menu;
+    font-family: $font-principal;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+/* #endregion */
