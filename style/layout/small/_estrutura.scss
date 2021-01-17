@@ -1,7 +1,7 @@
 .estrutura {
     display: grid;
-    grid-template-columns: 778px;
-    grid-template-rows: 265px minmax(36vw, auto) 7vw 12vw;
+    grid-template-columns: minmax(375px, auto);
+    grid-template-rows: minmax(340px, auto) minmax(36vw, auto) 7vw 12vw;
     grid-template-areas:
         "sidenav"
         "main"

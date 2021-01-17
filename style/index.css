@@ -97,6 +97,8 @@ img {
 .sidenav__noturno {
   align-self: flex-end;
   margin: 2vh 1.5vw 0 0;
+  height: 34px;
+  width: 32px;
 }
 
 .sidenav__nomecargo {
@@ -128,6 +130,11 @@ img {
 
 .sidenav__list li:not(:last-child) {
   margin-right: 1vw;
+}
+
+.sidenav__list img {
+  width: 35px;
+  height: 35px;
 }
 
 .sidenav__separador {
