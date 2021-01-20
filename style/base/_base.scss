@@ -1,6 +1,11 @@
 @import "variaveis";
 
-/* #region Estilos Gerais */
+html {
+    @include device(medium) {
+        font-size: 80%;
+    }
+}
+
 body {
     background-color: $texto-menu;
     font-family: $font-principal;
@@ -9,5 +14,7 @@ body {
 img {
     display: block;
     max-width: 100%;
+    @include device(medium) {
+        max-width: 80%;
+    }
 }
-/* #endregion */

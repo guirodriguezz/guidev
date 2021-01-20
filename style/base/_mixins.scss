@@ -17,3 +17,21 @@
     }
 }
 /* #endregion */
+
+/* #region Media Queres */
+@mixin device($size) {
+    @if $size == large {
+        @media screen and (min-width: $large-device) {
+            @content;
+        }
+    } @else if $size == medium {
+        @media screen and (max-width: $medium-device) {
+            @content;
+        }
+    } @else if $size == small {
+        @media screen and (max-width: $small-device) {
+            @content;
+        }
+    }
+}
+/* #endregion */
