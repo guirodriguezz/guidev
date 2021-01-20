@@ -26,7 +26,8 @@
             height: 279px;
             @include device(medium) {
                 height: 219px;
-                margin-right: 0;
+                margin-right: 3%;
+                margin-left: 10%;
             }
         }
         &__sampa {

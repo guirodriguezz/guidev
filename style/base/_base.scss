@@ -4,6 +4,9 @@ html {
     @include device(medium) {
         font-size: 80%;
     }
+    @include device(small) {
+        font-size: 70%;
+    }
 }
 
 body {

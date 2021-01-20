@@ -10,7 +10,8 @@
     @include device(small) {
         position: static;
         width: 100vw;
-        height: 611px;
+        height: 100%;
+        margin-bottom: 1vh;
     }
     &__noturno {
         align-self: flex-end;
@@ -18,19 +19,20 @@
         height: 34px;
         width: 32px;
         @include device(small) {
-            margin-right: 4vw;
+            margin-right: 3%;
         }
     }
     &__nomecargo {
         text-align: center;
         margin-top: 3vh;
+        text-transform: uppercase
     }
     &__nome {
-        @include tipografia(22, bold, $texto-menu);
+        @include tipografia(20, bold, $texto-menu);
     }
     &__cargo {
         margin-top: 3vh;
-        @include tipografia(22, normal, $texto-menu);
+        @include tipografia(20, normal, $texto-menu);
         opacity: 0.8;
     }
     &__menu {
@@ -39,7 +41,6 @@
             display: flex;
             right: 85vw;
             position: absolute;
-            
         }
     }
     &__list {
@@ -56,7 +57,7 @@
         @include device(small) {
             margin-top: 0;
             align-self: flex-end;
-            padding-right: 2vw;
+            padding-right: 3%;
         }
     }
     &__separador {
@@ -73,6 +74,8 @@
         @include device(small) {
             width: 100%;
             margin-top: 1vh;
+            margin-bottom: 3vh;
+            display: none;
             &--small {
                 display: flex;
                 margin-bottom: 1vh;
@@ -95,6 +98,12 @@
         span {
             @include tipografia(25, bold, $texto-menu);
         }
+    }
+    @include device(small) {
+        align-self: flex-start;
+        margin-left: 3.7vw;
+        margin-bottom: 3vh;
+        display: none;
     }
     a {
         text-decoration: none;

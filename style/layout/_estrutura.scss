@@ -8,11 +8,10 @@
         "sidenav  footer";
     @include device(small) {
         grid-template-columns: auto;
-        grid-template-rows: minmax(611px, auto) minmax(36vw, auto) 7vw;
+        grid-template-rows: auto minmax(36vh, auto) 7vw;
         grid-template-areas:
             "sidenav"
             "main"
             "footer"
-            "navsmall";
     }
 }
