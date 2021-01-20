@@ -16,7 +16,7 @@
     <meta property="og:description" content="Especializado em desenvolvimento de aplicativos web e mobile utlizando tecnologia .Net" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://raw.githubusercontent.com/guirodriguezz/guideveloper/main/img/guiemoji.png" />
-    <meta property="og:url" content="https://guideveloper.netlify.app" />
+    <meta property="og:url" content="https://guimarques.dev" />
     <!-- #endregion -->
 
     <!-- #region Tags de Importação -->
@@ -25,8 +25,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet" />
     <!-- <link rel="stylesheet" href="/style/index.css" /> -->
 
-    <link rel="stylesheet" media="screen and (min-width: 778px) and (max-width: 9999px)" href="/style/index.css" />
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="/style/indexSmall.css" />
+    <!-- <link rel="stylesheet" media="screen and (min-width: 778px) and (max-width: 9999px)" href="/style/index.css" /> -->
+    <link rel="stylesheet" href="/style/index.css" />
+    <!-- <link rel="stylesheet" media="screen and (max-width: 768px)" href="/style/indexSmall.css" /> -->
     <!-- #endregion -->
   </head>
 
@@ -42,7 +43,12 @@
           <p class="sidenav__cargo">Desenvolvedor Full-Stack</p>
         </div>
 
+        <span class="sidenav__separador sidenav__separador--small"></span>
+
         <ul class="sidenav__list">
+          <li class="sidenav__menu">
+            <img src="/img/icons/menu.svg" alt="Icone do menu hamburguer"/>
+          </li>
           <li>
             <a href="https://github.com/guirodriguezz" target="_blank">
               <img src="/img/icons/iconmonstr-github-3.svg" alt="Github do Guilherme Marques" title="Github" />
@@ -61,30 +67,30 @@
         </ul>
 
         <span class="sidenav__separador"></span>
-      </aside>
 
-      <nav class="navegacao">
-        <ul class="navegacao__list">
-          <a href="#sobre">
+        <nav class="navegacao">
+          <ul class="navegacao__list">
+            <a href="#sobre">
+              <li>
+                <img src="/img/icons/iconmonstr-user-14.svg" alt="Icone de usuário da sessão Sobre" />
+                <span>Sobre</span>
+              </li>
+            </a>
             <li>
-              <img src="/img/icons/iconmonstr-user-14.svg" alt="Icone de usuário da sessão Sobre" />
-              <span>Sobre</span>
+              <img src="/img/icons/iconmonstr-code-2.svg" alt="Icone de código da sessão Skills" height="25" width="25" />
+              <span>Skills</span>
             </li>
-          </a>
-          <li>
-            <img src="/img/icons/iconmonstr-code-2.svg" alt="Icone de código da sessão Skills" height="25" width="25" />
-            <span>Skills</span>
-          </li>
-          <li>
-            <img src="/img/icons/iconmonstr-smartphone-16.svg" alt="Icone de dispositivos da sessão Projetos" />
-            <span>Projetos</span>
-          </li>
-          <li>
-            <img src="/img/icons/iconmonstr-note-33.svg" alt="Icone de bloco de notas da sessão Currículo" />
-            <span>Currículo</span>
-          </li>
-        </ul>
-      </nav>
+            <li>
+              <img src="/img/icons/iconmonstr-smartphone-16.svg" alt="Icone de dispositivos da sessão Projetos" />
+              <span>Projetos</span>
+            </li>
+            <li>
+              <img src="/img/icons/iconmonstr-note-33.svg" alt="Icone de bloco de notas da sessão Currículo" />
+              <span>Currículo</span>
+            </li>
+          </ul>
+        </nav>
+      </aside>
 
       <main class="main">
         <section class="introducao">
@@ -94,7 +100,7 @@
               Me chamo Guilherme Alexandre Marques e aqui você vai encontrar minha trajetória e projetos legais que ando fazendo por aí : )
             </p>
           </div>
-          <img class="introducao__avatar" src="/img/guiemoji.png" alt="Avatar do Guilherme Marques" width="200" height="279" />
+          <img class="introducao__avatar" src="/img/guiemoji.png" alt="Avatar do Guilherme Marques" />
           <img class="introducao__sampa" src="/img/sampa.svg" alt="Desenho da cidade de São Paulo" />
         </section>
 

@@ -1,0 +1,18 @@
+.estrutura {
+    display: grid;
+    grid-template-columns: 351px auto;
+    grid-template-rows: minmax(96vh, auto) 7vh;
+    grid-template-areas:
+        "sidenav  main"
+        "sidenav  main"
+        "sidenav  footer";
+    @include device(small) {
+        grid-template-columns: auto;
+        grid-template-rows: minmax(611px, auto) minmax(36vw, auto) 7vw;
+        grid-template-areas:
+            "sidenav"
+            "main"
+            "footer"
+            "navsmall";
+    }
+}
