@@ -46,8 +46,8 @@
         <span class="sidenav__separador sidenav__separador--small"></span>
 
         <ul class="sidenav__list">
-          <li class="sidenav__menu">
-            <img src="/img/icons/menu.svg" alt="Icone do menu hamburguer"/>
+          <li class="sidenav__menu" onclick="menuShow()">
+            <img src="/img/icons/menu.svg" alt="Icone do menu hamburguer" />
           </li>
           <li>
             <a href="https://github.com/guirodriguezz" target="_blank">
@@ -66,9 +66,9 @@
           </li>
         </ul>
 
-        <span class="sidenav__separador"></span>
+        <span class="sidenav__separador menu--disabled"></span>
 
-        <nav class="navegacao">
+        <nav class="navegacao menu--disabled">
           <ul class="navegacao__list">
             <a href="#sobre">
               <li>
@@ -120,5 +120,6 @@
         <p class="footer__paragrafo">Copyright &copy; 2021 Guilherme Alexandre Marques</p>
       </footer>
     </div>
+    <script type="text/javascript" src="scripts/menu.js"></script>
   </body>
 </html>
