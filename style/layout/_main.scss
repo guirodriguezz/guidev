@@ -31,7 +31,12 @@
             }
         }
         &__sampa {
+            width: 80vw;
+            height: 47vh;
             margin-top: 10vh;
+            @include device(medium) {
+                height: 20vh;
+            }
         }
 
         @include device(small) {

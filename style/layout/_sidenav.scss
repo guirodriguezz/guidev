@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    box-shadow: 22px 17px 25px 1px rgba(30, 30, 60, 0.25), 4px 17px 25px 1px rgba(30, 30, 60, 0.25);
     @include device(small) {
         position: static;
         width: 100vw;
@@ -25,7 +26,7 @@
     &__nomecargo {
         text-align: center;
         margin-top: 3vh;
-        text-transform: uppercase
+        text-transform: uppercase;
     }
     &__nome {
         @include tipografia(20, bold, $texto-menu);
@@ -81,7 +82,7 @@
                 margin-bottom: 1vh;
                 margin-top: 3vh;
             }
-        }
+        }    
     }
 }
 

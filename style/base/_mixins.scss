@@ -21,7 +21,7 @@
 /* #region Media Queres */
 @mixin device($size) {
     @if $size == large {
-        @media screen and (min-width: $large-device) {
+        @media screen and (min-width: $small-device - 1) {
             @content;
         }
     } @else if $size == medium {
