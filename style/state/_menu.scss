@@ -1,3 +1,19 @@
-.menu--enabled {
+.sidenav__menu--enabled {
     display: block;
+}
+
+#itemSobre {
+    --animate-duration: 1s;
+}
+
+#itemSkill {
+    --animate-duration: 1.5s;
+}
+
+#itemProje {
+    --animate-duration: 2s;
+}
+
+#itemCurri {
+    --animate-duration: 2.5s;
 }
