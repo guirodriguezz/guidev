@@ -36,7 +36,8 @@ O site ainda está em desenvolvimento e as próximas atualizações serão volta
 - [x] CSS das seções.
 - [x] Adicionar media queries para responsividade.
 - [x] Adicionar ação no menu.
-- [ ] Adicionar scroll suave.
+- [x] Adicionar animações no menu e introdução.
+- [ ] Dark Mode. 
 
 <h1 align="left"><strong>🤝 Colaboradores</strong></h1>
 
