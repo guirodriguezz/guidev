@@ -1,0 +1,36 @@
+.sobre {
+    display: flex;
+    justify-content: space-around;
+    &__texto {
+        margin-left: 2vw;
+    }
+    &__titulo {
+        @include tipografia(35, normal, $titulo-secao);
+        text-transform: uppercase;
+        margin-top: 6vh;
+        @include device(small) {
+            margin-top: 4vw;
+        }
+    }
+    &__paragrafo {
+        @include tipografia(25, lighter, $texto-descritivo);
+        max-width: 61vw;
+        margin-top: 3vh;
+        @include device(small) {
+            max-width: 81vw;
+        }
+    }
+}
+
+.trajetoria {
+    margin-left: 20px;
+    margin-top: 4vh;
+    &__titulo {
+        @include tipografia(22, lighter, $titulo-secao);
+        list-style-type: disc;
+        text-transform: uppercase;
+        &::marker {
+            color: $cor-secundaria;
+        }
+    }
+}
