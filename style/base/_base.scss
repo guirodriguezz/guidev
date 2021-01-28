@@ -1,5 +1,3 @@
-@import "variaveis";
-
 html {
     @include device(medium) {
         font-size: 80%;

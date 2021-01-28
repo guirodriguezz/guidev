@@ -43,21 +43,4 @@
             display: none;
         }
     }
-
-    .secao {
-        display: flex;
-        justify-content: space-around;
-        &__texto {
-            margin-left: 2vw;
-        }
-        &__titulo {
-            @include tipografia(35, normal, $titulo-secao);
-            margin-top: 6vh;
-        }
-        &__paragrafo {
-            @include tipografia(25, lighter, $texto-descritivo);
-            max-width: 61vw;
-            margin-top: 3vh;
-        }
-    }
 }

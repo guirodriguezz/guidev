@@ -16,9 +16,8 @@
     }
     &__noturno {
         align-self: flex-end;
+        color: $texto-menu;
         margin: 2vh 1.5vw 0 0;
-        height: 34px;
-        width: 32px;
         @include device(small) {
             margin-right: 3%;
         }
@@ -61,6 +60,9 @@
             padding-right: 3%;
         }
     }
+    &__redes {
+        color: $texto-menu;
+    }
     &__separador {
         background-color: $separador;
         border: 1px solid $separador;
@@ -82,7 +84,7 @@
                 margin-bottom: 1vh;
                 margin-top: 3vh;
             }
-        }    
+        }
     }
 }
 
@@ -90,11 +92,9 @@
     &__list li {
         display: flex;
         align-items: center;
+        gap: 25px;
         &:not(:first-child) {
             margin-top: 2vh;
-        }
-        img {
-            margin-right: 25px;
         }
         span {
             @include tipografia(25, bold, $texto-menu);
@@ -109,4 +109,11 @@
     a {
         text-decoration: none;
     }
+    &__itens {
+        color: $texto-menu;
+    }
+}
+
+#itemCurri {
+    margin-left: 3.5px;
 }
