@@ -1,3 +1,4 @@
+/* #region Função para o menu hamburger */
 const sidenavMenu = document.querySelector(".sidenav__menu");
 
 function menuShow() {
@@ -14,7 +15,9 @@ function menuShow() {
 }
 
 sidenavMenu.addEventListener("click", menuShow);
+/* #endregion */
 
+/* #region Função para o dark mode */
 const sidenavNoturno = document.querySelector(".sidenav__noturno");
 
 function darkMode() {
@@ -31,3 +34,4 @@ function darkMode() {
 }
 
 sidenavNoturno.addEventListener("click", darkMode);
+/* #endregion */
