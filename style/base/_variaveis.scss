@@ -1,11 +1,15 @@
 /* #region Cores */
-$texto-descritivo: #161613;
-$cor-branca: #ffffff;
-$cor-sidenav: #4c6085;
-$cor-bullets: #57AEEF;
-$separador: #f9f7f7;
-$titulo-secao: #e4572e;
-$cor-borda: #c3c3c3;
+:root {
+    --cor-branca: #ffffff;
+    --background: #ffffff;
+    --texto-descritivo: #161613;
+    --cor-sidenav: #4c6085;
+    --cor-bullets: #57aeef;
+    --separador: #f9f7f7;
+    --titulo-secao: #e4572e;
+    --cor-borda: #c3c3c3;
+    --footer: #f9f7f7;
+}
 /* #endregion */
 
 /* #region Fontes */

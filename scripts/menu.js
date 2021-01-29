@@ -2,8 +2,9 @@
 const sidenavMenu = document.querySelector(".sidenav__menu");
 
 function menuShow() {
-  var menu = document.querySelectorAll(".sidenav--hamburguer");
-  var liAnimate = document.querySelectorAll("li.animate__animated");
+  let menu = document.querySelectorAll(".sidenav--hamburguer");
+  let liAnimate = document.querySelectorAll("li.animate__animated");
+  let menuIcon = document.querySelector(".sidenav__redes");
 
   menu.forEach((item) => {
     item.classList.toggle("sidenav__menu--enabled");
@@ -12,6 +13,8 @@ function menuShow() {
   liAnimate.forEach((item) => {
     item.classList.toggle("animate__slideInLeft");
   });
+
+  menuIcon.classList.toggle("fa-times");
 }
 
 sidenavMenu.addEventListener("click", menuShow);
@@ -21,9 +24,9 @@ sidenavMenu.addEventListener("click", menuShow);
 const sidenavNoturno = document.querySelector(".sidenav__noturno");
 
 function darkMode() {
-  var html = document.querySelector("html");
-  var introducaoDark = document.querySelector(".introducao__sampa--dark");
-  var introducaoWhite = document.querySelector(".introducao__sampa--white");
+  let html = document.querySelector("html");
+  let introducaoDark = document.querySelector(".introducao__sampa--dark");
+  let introducaoWhite = document.querySelector(".introducao__sampa--white");
 
   html.classList.toggle("dark__mode");
   introducaoDark.classList.replace("introducao__sampa--dark", "introducao__sampa--white");
@@ -41,7 +44,7 @@ function darkMode() {
 sidenavNoturno.addEventListener("click", darkMode);
 /* #endregion */
 
-/* #region Salva o tema escolhido do usuário */
+/* #region usa o tema escolhido do usuário */
 const temaAtual = localStorage.getItem("tema") ? localStorage.getItem("tema") : null;
 
 if (temaAtual === "dark") {
