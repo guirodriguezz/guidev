@@ -8,7 +8,6 @@
     --titulo-secao: #{$titulo-secao};
     --cor-borda: #{$cor-borda};
     --footer: #{$separador};
-
     @include device(medium) {
         font-size: 80%;
     }
