@@ -1,6 +1,6 @@
 .sidenav {
     grid-area: sidenav;
-    background-color: $cor-secundaria;
+    background-color: var(--cor-sidenav);
     position: fixed;
     height: 100vh;
     width: 351px;
@@ -16,8 +16,9 @@
     }
     &__noturno {
         align-self: flex-end;
-        color: $texto-menu;
+        color: var(--cor-branca);
         margin: 2vh 1.5vw 0 0;
+        cursor: pointer;
         @include device(small) {
             margin-right: 3%;
         }
@@ -28,11 +29,11 @@
         text-transform: uppercase;
     }
     &__nome {
-        @include tipografia(20, bold, $texto-menu);
+        @include tipografia(20, bold, var(--cor-branca));
     }
     &__cargo {
         margin-top: 3vh;
-        @include tipografia(20, normal, $texto-menu);
+        @include tipografia(20, normal, var(--cor-branca));
         opacity: 0.8;
     }
     &__menu {
@@ -61,11 +62,11 @@
         }
     }
     &__redes {
-        color: $texto-menu;
+        color: var(--cor-branca);
     }
     &__separador {
-        background-color: $separador;
-        border: 1px solid $separador;
+        background-color: var(--separador);
+        border: 1px solid var(--separador);
         border-radius: 50px;
         opacity: 0.2;
         width: 306px;
@@ -97,7 +98,7 @@
             margin-top: 2vh;
         }
         span {
-            @include tipografia(25, bold, $texto-menu);
+            @include tipografia(25, bold, var(--cor-branca));
         }
     }
     @include device(small) {
@@ -110,7 +111,7 @@
         text-decoration: none;
     }
     &__itens {
-        color: $texto-menu;
+        color: var(--cor-branca);
     }
 }
 

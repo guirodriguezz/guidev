@@ -1,4 +1,14 @@
-html {
+:root {
+    --cor-branca: #{$cor-branca};
+    --background: #{$cor-branca};
+    --texto-descritivo: #{$texto-descritivo};
+    --cor-sidenav: #{$cor-sidenav};
+    --cor-bullets: #{$cor-bullets};
+    --separador: #{$separador};
+    --titulo-secao: #{$titulo-secao};
+    --cor-borda: #{$cor-borda};
+    --footer: #{$separador};
+
     @include device(medium) {
         font-size: 80%;
     }
@@ -8,7 +18,7 @@ html {
 }
 
 body {
-    background-color: $texto-menu;
+    background-color: var(--background);
     font-family: $font-principal;
 }
 

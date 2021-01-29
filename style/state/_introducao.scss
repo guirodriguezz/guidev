@@ -1,3 +1,11 @@
 .introducao__sampa {
     --animate-duration: 2s;
 }
+
+.introducao__sampa--white {
+    display: none;
+}
+
+.introducao__sampa--dark {
+    display: block;
+}

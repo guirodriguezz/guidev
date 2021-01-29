@@ -2,12 +2,12 @@
     grid-area: footer;
     display: flex;
     align-items: center;
-    background-color: $cor-cabecalho;
-    border-top: 1px solid $cor-borda;
+    background-color: var(--footer);
+    border-top: 1px solid var(--cor-borda);
     padding: 2vh 0 2vh 0;
     margin-top: 2vh;
     &__paragrafo {
         margin: 0 auto;
-        @include tipografia(15, lighter, $icone-cabecalho);
+        @include tipografia(15, lighter, var(--texto-descritivo));
     }
 }

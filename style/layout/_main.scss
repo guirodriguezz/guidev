@@ -9,15 +9,17 @@
             margin-top: 8vh;
             margin-left: 3vw;
             @include device(medium) {
+                margin-top: 4vh;
+                margin-left: 4vw;
                 text-align: center;
             }
         }
         &__titulo {
-            @include tipografia(35, bold, $texto-descritivo);
+            @include tipografia(35, bold, var(--texto-descritivo));
             margin-bottom: 3vh;
         }
         &__subtitulo {
-            @include tipografia(25, lighter, $texto-descritivo);
+            @include tipografia(25, lighter, var(--texto-descritivo));
             max-width: 33vw;
         }
         &__avatar {
@@ -25,6 +27,7 @@
             margin-right: 3vw;
             height: 279px;
             @include device(medium) {
+                margin-top: 2vh;
                 height: 219px;
                 margin-right: 3%;
                 margin-left: 10%;
@@ -36,6 +39,7 @@
             margin-top: 10vh;
             @include device(medium) {
                 height: 20vh;
+                display: none;
             }
         }
 

@@ -1,0 +1,10 @@
+.dark__mode:root {
+    --footer: #414141;
+    --background: #292323;
+    --cor-sidenav: #414141;
+    --texto-descritivo: #{$cor-branca};
+}
+
+* {
+    transition: background-color 0.6s ease, color 1s ease;
+}
